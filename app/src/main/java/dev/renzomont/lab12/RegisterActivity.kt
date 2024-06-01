@@ -65,7 +65,7 @@ class RegisterActivity : AppCompatActivity() {
                     }
                 }
         }
-
+        //comentario
         btnLogeate.setOnClickListener{
             startActivity(
                 Intent(this,
