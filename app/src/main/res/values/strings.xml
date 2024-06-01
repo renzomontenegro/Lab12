@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Lab12</string>
+    <string name="txtRegister">Sign Up</string>
 </resources>
