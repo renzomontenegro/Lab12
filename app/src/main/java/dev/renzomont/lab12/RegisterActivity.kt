@@ -1,5 +1,6 @@
 package dev.renzomont.lab12
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
@@ -29,6 +30,7 @@ class RegisterActivity : AppCompatActivity() {
         val etEmail: EditText = findViewById(R.id.etEmail)
         val etPassword: EditText = findViewById(R.id.etPassword)
         val btnRegister: Button = findViewById(R.id.btnRegister)
+        val btnLogeate: Button = findViewById(R.id.btnLogeate)
         val db = FirebaseFirestore.getInstance()
         val auth = FirebaseAuth.getInstance()
         val collectionRef = db.collection("users")
@@ -62,6 +64,13 @@ class RegisterActivity : AppCompatActivity() {
                             }
                     }
                 }
+        }
+
+        btnLogeate.setOnClickListener{
+            startActivity(
+                Intent(this,
+                LoginActivity::class.java)
+            )
         }
     }
 }
