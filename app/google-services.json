@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "744153504746",
-    "project_id": "esan20241",
-    "storage_bucket": "esan20241.appspot.com"
+    "project_number": "1010753602622",
+    "project_id": "pc2renzo",
+    "storage_bucket": "pc2renzo.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:744153504746:android:50df727b7736f680d5b093",
+        "mobilesdk_app_id": "1:1010753602622:android:256c619e897784fda43d6f",
         "android_client_info": {
           "package_name": "dev.renzomont.lab12"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDW-RdmBrhaxmwY7FbCxX44TxCz5xQRJDs"
+          "current_key": "AIzaSyCBXJtGbZJipvDqbpAPtQmZho5i68b5-eo"
         }
       ],
       "services": {
